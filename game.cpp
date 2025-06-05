@@ -701,7 +701,7 @@ void drawInfo() {
     SetConsoleTextAttribute(consoleHandle, 6);
     std::cout << "Down Key :- ";
     SetConsoleTextAttribute(consoleHandle, 12);
-    std::cout<< "To Soft Drop";
+    std::cout<< "Soft Drop";
     setCursorPosition(infoX, infoY + 9);
     SetConsoleTextAttribute(consoleHandle, 6);
     std::cout << "Double-Spacebar Key :- ";
@@ -908,7 +908,7 @@ int main() {
     // Border for instructions
     SetConsoleTextAttribute(consoleHandle, 13); // Bright Pink/Magenta
     std::cout << instructionPadding << "+------------------------------------------+\n";
-    std::cout << instructionPadding << "|              HOW TO PLAY                 |\n";
+    std::cout << instructionPadding << "|              HOW TO PLAY   let's play the game              |\n";
     std::cout << instructionPadding << "+------------------------------------------+\n\n";
     SetConsoleTextAttribute(consoleHandle, 2);
     std::cout << instructionPadding << "Controls:\n";
